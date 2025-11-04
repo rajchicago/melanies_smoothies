@@ -4,7 +4,7 @@ from snowflake.snowpark.functions import col
 import requests
 import pandas as pd
 
-search_on = pd_df.loc{pd_df{'FRUIT_NAME'} == fruit_chose, 'SEARCH_ON'}.iloc{0}
+search_on = pd_df.loc[pd_df['FRUIT_NAME'] == fruit_chose, 'SEARCH_ON'].iloc[0]
 # Write directly to the app
 st.title(f":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
 st.write(
