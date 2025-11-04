@@ -1,0 +1,14 @@
+name: sis_env
+channels:
+  - snowflake
+  - defaults
+dependencies:
+  - python=3.8
+  - streamlit
+  - pandas
+  - numpy
+  - altair
+  - matplotlib
+  - snowflake-snowpark-python
+  - requests
+  - plotly
