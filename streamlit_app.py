@@ -42,5 +42,5 @@ if ingredients_list:
         
         st.success(f"Your Smoothie is ordered,{name_on_order}!", icon="✅")
 # New section to display smoothiefroot nutrition information
-  st.text(smoothiefroot_response)
+        st.text(smoothiefroot_response)
 
